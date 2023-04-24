@@ -1,4 +1,4 @@
-module github.com/chihaya/chihaya
+module github.com/whr819987540/chihaya
 
 go 1.16
 

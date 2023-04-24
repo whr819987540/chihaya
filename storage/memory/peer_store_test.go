@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	s "github.com/chihaya/chihaya/storage"
+	s "github.com/whr819987540/chihaya/storage"
 )
 
 func createNew() s.PeerStore {

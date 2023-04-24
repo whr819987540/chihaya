@@ -3,10 +3,10 @@ package udp_test
 import (
 	"testing"
 
-	"github.com/chihaya/chihaya/frontend/udp"
-	"github.com/chihaya/chihaya/middleware"
-	"github.com/chihaya/chihaya/storage"
-	_ "github.com/chihaya/chihaya/storage/memory"
+	"github.com/whr819987540/chihaya/frontend/udp"
+	"github.com/whr819987540/chihaya/middleware"
+	"github.com/whr819987540/chihaya/storage"
+	_ "github.com/whr819987540/chihaya/storage/memory"
 )
 
 func TestStartStopRaceIssue437(t *testing.T) {

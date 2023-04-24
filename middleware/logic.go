@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/chihaya/chihaya/bittorrent"
-	"github.com/chihaya/chihaya/frontend"
-	"github.com/chihaya/chihaya/pkg/log"
-	"github.com/chihaya/chihaya/pkg/stop"
-	"github.com/chihaya/chihaya/storage"
+	"github.com/whr819987540/chihaya/bittorrent"
+	"github.com/whr819987540/chihaya/frontend"
+	"github.com/whr819987540/chihaya/pkg/log"
+	"github.com/whr819987540/chihaya/pkg/stop"
+	"github.com/whr819987540/chihaya/storage"
 )
 
 // ResponseConfig holds the configuration used for the actual response.

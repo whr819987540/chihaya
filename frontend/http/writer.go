@@ -4,9 +4,9 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/chihaya/chihaya/bittorrent"
-	"github.com/chihaya/chihaya/frontend/http/bencode"
-	"github.com/chihaya/chihaya/pkg/log"
+	"github.com/whr819987540/chihaya/bittorrent"
+	"github.com/whr819987540/chihaya/frontend/http/bencode"
+	"github.com/whr819987540/chihaya/pkg/log"
 )
 
 // WriteError communicates an error to a BitTorrent client over HTTP.

@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/chihaya/chihaya/bittorrent"
-	"github.com/chihaya/chihaya/storage"
+	"github.com/whr819987540/chihaya/bittorrent"
+	"github.com/whr819987540/chihaya/storage"
 )
 
 // Hook abstracts the concept of anything that needs to interact with a

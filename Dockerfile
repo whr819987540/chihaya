@@ -5,8 +5,8 @@ LABEL maintainer "Jimmy Zelinskie <jimmyzelinskie+git@gmail.com>"
 RUN apk add --no-cache curl git
 
 # Copy our source code into the container.
-WORKDIR /go/src/github.com/chihaya/chihaya
-COPY . /go/src/github.com/chihaya/chihaya
+WORKDIR /go/src/github.com/whr819987540/chihaya
+COPY . /go/src/github.com/whr819987540/chihaya
 
 # Install our golang dependencies and compile our binary.
 RUN CGO_ENABLED=0 go install ./cmd/chihaya
